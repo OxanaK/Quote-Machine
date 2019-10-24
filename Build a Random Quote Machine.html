@@ -1,0 +1,424 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+          rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <title></title>
+    <style>
+        
+body{
+    background-color:#f2e0d6;
+}
+#image{
+  height:800px;
+ width:1300px;
+ max-height:900px;
+ max-width:1300px;
+ position:relative;
+ display:block;
+    text-align: center;
+     
+      margin-left:auto;
+      margin-right: auto;
+      z-index:1;
+}
+
+#man{
+        display:flex;
+         position:relative;
+}
+
+ #quote-box {
+    height:800px;
+ width:1300px;
+ max-height:900px;
+ max-width:1300px;
+ position:relative;
+     text-align:center;
+      margin-left:auto;
+      margin-right: auto;
+        }
+
+#new-quote{
+    position:fixed;
+margin-top:40px;
+     margin-left:-50px;
+     padding:7px;
+     border:1px solid black;
+      
+}
+
+#quote-box2 {
+    box-shadow:-3px -5px 7px #d5b1af;
+    position:relative;
+ height:278px;
+  width: 155px;
+  transform:rotate(47deg);
+   border:1px solid #d5b1af;
+   border-right:none;
+  background-color: #dfd2db;
+  opacity: 1;
+  font-size:0.8em;
+  margin-top:-703px;
+    margin-left: 486px;
+
+    overflow:hidden;
+  border-radius: 5px;
+  padding: 15px;
+  z-index:10;
+
+
+  text-align: center;
+  color: black;
+}
+#hr1{
+    width:50%;
+   background-color: black;
+}
+#author{
+     height:15%;
+}
+#text{
+     height:30%;
+}
+
+#author,
+#text{
+     color: black;
+      z-index:12;
+
+}
+#bigScren{
+    width:30%;
+    height:50px;
+position:relative;
+
+z-index:10;
+left:65%;
+top:-25%;
+font-size:3em;
+font-family: 'Great Vibes', cursive;
+}
+
+#bigScrenAuthor{
+  will-change: opacity;
+font-size:0.7em;
+font-family: 'Great Vibes', cursive;
+}
+#tweet-btn{
+    position:fixed;
+    display:block;
+    height:15%;
+    margin-left:25px;
+      
+}
+      
+
+ @media screen and (max-width: 700px) {
+
+     #author{
+          font-size:2em;
+         font-family: 'Great Vibes', cursive;
+         color:#273344;
+         height:auto;
+  
+      z-index:12;
+     }
+#text{
+    margin-top:40px;
+         font-size:3.4em;
+         font-family: 'Great Vibes', cursive;
+         color:#273344;
+              height:auto;
+      z-index:12;
+
+}
+#hr1{
+display:none;
+}
+  #bigScren{
+      display:none;
+  }
+     #image{
+  height:auto;
+ width:100%;
+ max-width:800px;
+ position:relative;
+ display:block;
+ margin-left:auto;
+ margin-right: auto;
+ z-index:1;
+ 
+}
+
+   
+ #quote-box2{
+         top:730px;
+     position:relative;
+     display:block;
+    height:400px;
+    background-color:#f2e0d6;
+     max-width:800px;
+    width:80%;
+     max-width:800px;
+     transform:rotate(0deg);
+ 
+      margin-left:auto;
+      margin-right: auto;
+      
+      box-shadow:5px 5px 7px #273344;
+     }
+
+
+        #tweet-btn {
+            position: fixed;
+           right:0;
+              margin:0;
+            bottom:0;
+      width:20%;
+        }
+
+  #new-quote{
+      position:fixed;
+      bottom:30px;
+  }
+  
+ #quote-box {
+     position:relative;
+ display:block;
+    height:1000vw;
+    background-color:#f2e0d6;
+width:100%;
+
+     text-align:center;
+      margin-left:auto;
+      margin-right: auto;
+        }
+
+
+#div_image{
+    position:relative;
+ width:100%; 
+display:block;
+z-index:2;
+      }
+
+    
+      
+            } 
+   @media screen and (min-width: 701px) and (max-width: 1299px) {
+        
+     #author{
+          font-size:2em;
+         font-family: 'Great Vibes', cursive;
+         color:#273344;
+         height:auto;
+  
+      z-index:12;
+     }
+#text{
+    margin-top:30px;
+         font-size:3.3em;
+         font-family: 'Great Vibes', cursive;
+         color:#273344;
+              height:auto;
+      z-index:12;
+
+}
+#hr1{
+display:none;
+}
+  #bigScren{
+      display:none;
+  }
+     #image{
+  height:auto;
+ width:100%;
+ max-width:750px;
+ position:relative;
+ display:block;
+ margin-left:auto;
+ margin-right: auto;
+ z-index:1;
+ 
+}
+
+   
+ #quote-box2{
+         top:730px;
+     position:relative;
+     display:block;
+    height:300px;
+    background-color:#f2e0d6;
+    width:750px;
+     transform:rotate(0deg);
+ 
+      margin-left:auto;
+      margin-right: auto;
+      
+      box-shadow:5px 5px 7px #273344;
+     }
+
+
+        #tweet-btn {
+            position: fixed;
+           right:0;
+              margin:0;
+            bottom:0;
+      width:20%;
+        }
+
+  #new-quote{
+      position:fixed;
+      bottom:30px;
+  }
+  
+ #quote-box {
+     position:relative;
+ display:block;
+    height:1000vw;
+    background-color:#f2e0d6;
+width:100%;
+
+     text-align:center;
+      margin-left:auto;
+      margin-right: auto;
+        }
+
+
+#div_image{
+    position:relative;
+ width:100%; 
+display:block;
+z-index:2;
+      }
+
+    
+        }
+ 
+ 
+
+    </style>
+  
+</head>
+<body>
+    <div id="main">
+            <div id="quote-box">
+           <div id="div_image"> <img id="image" src="https://kaboompics.com/cache/6/5/2/5/1/6525194a2829fb53514092327420b612d2239240.jpeg?version=v52" alt="picture"></div>
+            <div id="quote-box2">
+                <div id="text"> </div>
+                <hr id="hr1" />
+                <br />
+                <div id="author"> </div>
+                <div id="tweet-btn">
+                    <a class="btn btn-md" id="tweet-quote" href="https://twitter.com/intent/tweet" target="_blank"><i class="fa fa-twitter"></i> Tweet</a>
+                </div>
+               
+                <div>
+                    <a class="btn btn-lg" id="new-quote"> new quote </a>
+                </div>
+
+              </div>
+
+                <div id="bigScren">
+                    <div id="bigScrenQuote"> </div>
+                    <br />
+                    <div id="bigScrenAuthor"> </div>
+                </div>
+                
+            </div>
+               
+       
+
+        </div>
+            
+
+</body>
+</html>
+<script type="text/javascript">
+    var twitter_url = "https://twitter.com/intent/tweet";
+
+  const quotes = [
+      {
+          quote: "Our lifeis frittered away by detail. Simplify, simplify.",
+      author: "by Henry David Thoreau"
+      },
+      {
+          quote: "If you want to be happy, be.",
+          author: "by Leo Tolstoy"
+      },
+       {
+           quote: "We can do hard things.",
+           author: "by Glennon Doyle Melton"
+       },
+      { 
+          quote: "If there is no struggle, there is no progress.",
+         author: "by Frederick Douglas"
+      },
+
+      { 
+          quote: "When you look in the mirror, I hope you see what's inside... and that you are beautiful inside and out.",
+          author: "by Sara"
+      },
+      { 
+          quote: "Travel is fatal to prejudice, bigotry, and narrow mindedness.",
+          author: "by Mark Twain"},
+      { 
+          quote: "A flower does not think of competing with the flower next to it. It just blooms.",
+          author: ""},
+      { 
+          quote: "A ship in port is safe, but that is not what ships are for. Sail out to sea and do new things.",
+          author: "by Grace Hopper"
+      },
+      { 
+          quote: "With life as short as a half taken breath, don't plant anything but love.",
+          author: "by Rumi"
+      },
+      { 
+          quote: "Fear is the cheapest room in the house. I would like to see you living In better conditions.",
+          author: "by Hafiz"
+      },
+      {
+          quote: "The words you speak become the house you live in.",
+          author: "by Hafiz"
+      }
+    ];
+
+   function returnQuote() {
+       var newquote = quotes[Math.floor(quotes.length * Math.random())];
+    
+       var q = '"' + newquote.quote + '"';
+       $("#text").html(q);
+        $("#author").html(newquote.author);
+      
+        $("#bigScrenQuote").text(q);
+        $("#bigScrenAuthor").text(newquote.author);
+     
+        $("#bigScrenQuote").show().delay(3000).hide(100);
+        $("#bigScrenAuthor").show().delay(3000).hide(100);
+           
+   }
+ 
+    $(document).ready(function () {
+     
+        returnQuote();
+            
+      
+        $("#new-quote").on('click', function () {
+           
+            
+            returnQuote();
+
+        });
+
+    });
+
+</script>

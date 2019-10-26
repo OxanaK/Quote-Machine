@@ -1,6 +1,6 @@
 # A Random Quote Machine
 
-designing and developing a web application for showing the random quotes for different browser zoom levels
+designing and developing a web application for displaying the random quotes for different browser zoom levels
 
 Try it! ----> https://oxanak.github.io/QuoteMachine/RandomQuoteMachine.html
 
